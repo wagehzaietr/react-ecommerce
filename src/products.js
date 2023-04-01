@@ -59,13 +59,13 @@ export const PRODUCTS = [
     productImage: product8,
   },
   {
-    id: 8,
+    id: 9,
     productName: "Kind Omega Watch",
     price: 400.0,
     productImage: product9,
   },
   {
-    id: 8,
+    id: 10,
     productName: "Apple Watch",
     price: 769.99,
     productImage: product10,
