@@ -1,8 +1,4 @@
-.shopTitle {
-  margin-top: 100px;
-  text-align: center;
-  font-size: 40px;
-}
+
 .products {
   width: 100%;
   display: flex;
@@ -12,9 +8,10 @@
 
 }
 
+
 .product {
   border-radius: 15px;
-  width: 300px;
+  width: 320px;
   height: 350px;
   margin: 100px;
   display: flex;
@@ -24,6 +21,7 @@
   background-color: rgba(204, 204, 204, 0.154);
   transition: .4s ease-in-out;
   box-shadow: 0 0 20px #09090951;
+
 }
 
 .product img {
@@ -33,7 +31,7 @@
   transition: .4s ease-in-out;
 }
 
-img:hover{
+#hover:hover{
   transform: translatey(-12px);
 }
 

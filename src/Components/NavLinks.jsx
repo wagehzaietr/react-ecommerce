@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from "../../public/logo.png";
-import "./navbar.css";
 import { ShoppingCart } from "phosphor-react";
 import { Link } from "react-router-dom";
+import '../Components/navbar.css';
 
 const NavLinks = () => {
   return (
@@ -30,16 +30,16 @@ const NavLinks = () => {
               <Link to="/" className='link'> Home </Link>
               </a>
               <a className="nav-link">
-              <Link to="/contact" className='link'> Contact </Link>
+              <Link to="/shop" className='link'> Shop </Link>
               </a>
               <a className="nav-link" href="#">
                 Pricing
               </a>
             </div>
+          </div>
               <Link to='/cart' >
                 <ShoppingCart size={28} color="#000000eb" className='cart'/>
               </Link>
-          </div>
         </div>
       </div>
     </>

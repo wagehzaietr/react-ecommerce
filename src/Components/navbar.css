@@ -1,14 +1,4 @@
 .link{
     text-decoration: none;
-    color: #000000;
-}
-
-.link:active{
-    color: aqua;
-}
-
-@media only screen and (max-width:790px){
-    .cart{
-        display: none;
-    }
+    color: #272727;
 }
