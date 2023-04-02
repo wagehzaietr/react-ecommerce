@@ -12,13 +12,13 @@ export const Landing = styled.div`
     width: 100%;
     height: 100vh;
     position: absolute;
-    background: linear-gradient(45deg, #5757572c, #ffffff24);
+    background: linear-gradient(45deg, #08080860, #0707073e);
   }
 `;
 
 export const Left = styled.div`
   flex: 1;
-  color: #f700b1;
+  color: #ffffff;
   z-index: 1;
 
   h1 {
