@@ -2,3 +2,16 @@
     text-decoration: none;
     color: #272727;
 }
+#mobile-cart{
+    display: block;
+}
+
+@media screen and (max-width:790px){
+    #mobile-cart{
+        display: block;
+        position: absolute;
+        top:2.3rem;
+        left: 18rem;
+        z-index: 999;
+    }
+}
