@@ -29,6 +29,11 @@ export const Left = styled.div`
   h2 {
     font-size: 3rem;
     margin-top: 1rem;
+
+    @media (max-width: 768px) {
+      font-size: 2rem;
+      text-align: center;
+    }
   }
 
   @media only screen and (max-width: 390px) {
